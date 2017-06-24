@@ -1,0 +1,39 @@
+.info {
+  width: 100%;
+  display: flex;
+  color: #353535;
+
+  &__blocks {
+    width: 50%;
+
+    a {
+      color: inherit;
+    }
+
+    &-news {
+      background: url("..//images/strawberry.jpg")50% repeat;
+      margin-right: 20px;
+
+      a {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+    }
+    &-subscribe {
+      background: url("..//images/mail.jpg") repeat;
+      padding: 5px 5px;
+      margin-left: 20px;
+    }
+  }
+
+  &__blocks:last-child {
+    margin-right: 0;
+  }
+  &__subscription {
+    background: #f7f7f4;
+    border-radius: 15px;
+    padding: 30px 20px;
+  }
+}
+

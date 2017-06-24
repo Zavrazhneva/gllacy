@@ -1,0 +1,39 @@
+@import "../config/settings";
+.promo {
+
+  display: flex;
+
+
+  &__left {
+    width: 50%;
+    margin-right:10px;
+    background: #3c0106 url("..//images/raspberries.jpg") 23% 50% no-repeat;
+    border-radius: 15px;
+
+  }
+  &__right {
+    width: 50%;
+    background: #523f35 url("..//images/chocolate.jpg");
+    margin-left: 10px;
+    border-radius: 15px;
+
+  }
+  &__var-info {
+    width: 100%;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 80px;
+
+    h2 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  &__button {
+    position:absolute;
+    right: 0;
+    bottom: 20px;
+  }
+}

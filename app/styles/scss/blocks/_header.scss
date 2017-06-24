@@ -1,29 +1,53 @@
 .header {
-  @include clearfix;
+  &__left {
+    display: flex;
+  }
+  &__top {
+    display: flex;
+    justify-content:space-between;
+    line-height: 55px;
+  }
   &__logo {
-    float: left;
-    display: block;
-    width: 154px;
-    height: 64px;
+
   }
   &__menu {
-    float:left;
-    display: block;
-    &-item {
+
+    &-var {
+      list-style-type: none;
+      li {
+        display: inline-block;
+        margin: 0 15px;
+        font-size: 16px;
+      }
+    }
+  }
+  &__user {
+    font-size: 14px;
+
+    &-searc {
+
+    }
+    &-login {
+
+    }
+    &-basket {
 
     }
   }
-  &__right {
-    float:right;
-    display: block;
-    &-search {
-
+  &__bottom {
+    color: #fff;
+    &-mode {
+      display: flex;
+      justify-content:flex-end;
     }
-    &-user {
-
+    &-coll {
+      display: flex;
+      justify-content:flex-end;
     }
-    &-cart {
-
-    }
+  }
+  &__button {
+    display: inline-block;
+    background: #ffffff;
+    opacity: 0.2;
   }
 }

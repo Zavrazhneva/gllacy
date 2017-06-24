@@ -1,0 +1,15 @@
+.slider {
+  position: relative;
+  background: #fff;
+  min-height: 600px;
+
+  &__slide {
+    text-align: center;
+    height: 530px;
+  }
+  &__dots {
+
+    li {
+    }
+  }
+}
