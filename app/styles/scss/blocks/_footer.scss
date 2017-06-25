@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  justify-content:space-between;
+
+
+  &__left {
+
+    display: flex;
+    &-img {
+      margin-right: 10px;
+    }
+  }
+  &__center {
+    display: flex;
+    font-size: 13px;
+    &-left {
+      margin-right: 30px;
+      position: relative;
+
+      img {
+        position: absolute;
+        left:-20px;
+        display: inline-block;
+      }
+    }
+    &-right {
+
+    }
+  }
+  &__right {
+    a {
+      font-size: 12px;
+    }
+  }
+}
